@@ -1,0 +1,53 @@
+*{
+    margin: 0px;
+    padding: 0px;    
+}
+
+#vertical_line{
+    height: 70px;
+    border: 1px solid lightgray;
+}
+
+#nav_delivery>h5{
+    margin: 0px;
+    font-weight: 800;
+}
+#nav_delivery>p{
+    margin: 0px;
+}
+
+#search_div{
+    border: 1px solid #bcb8b8;
+    background-color: #f8f8f8;
+    border-radius: 10px;
+    padding-inline: 10px;
+    width: 40vw;
+}
+#search_div>input{
+    border: none;
+    background-color: transparent;
+    width: 95%;
+    height: 45px;
+}
+
+#catagory_section{
+    width: 85vw;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.card_section{
+    width: 1250px;
+    margin: auto;
+}
+
+.scrollable_div{
+    white-space: nowrap;
+    overflow: hidden;
+    overflow-x: scroll;
+}
+.scrollable_div>img{
+    display: inline-block;
+}
